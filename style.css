@@ -52,7 +52,7 @@
 
 body {
 	width: 100wh;
-	height: 90vh;
+	height: 100vh;
 	color: #686868;
 	background: linear-gradient(-45deg, #f4f4f4, #e2e2e2, #edf5f7, #ffffff);
 	background-size: 400% 400%;
@@ -65,21 +65,19 @@ body {
 
 
 
-
 .container {
-	display: grid;
-	position: relative;
-	margin: auto;
-	grid-template-areas:"header header"
-                        "main main"
-                        "footer footer";
-    
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: start;
+
 }
 
 
+
+
 header {
-	grid-area: header;
-	margin: auto;
+	margin: 10px auto auto auto;
 	width: 90%;
 	font-size: 0.8rem;
 	padding: 20px;
@@ -95,12 +93,21 @@ h3 {
 	letter-spacing: 0.3rem;
 }
 
-
-.name{
-	display: inline-block;
-	float: right;
-	margin-bottom: 10%;
+.right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
+.right > div{
+	text-align: right;
+}
+	
+.right a{
+	font-size: 2rem;
+	color: #686868;
+}
+
 
 
 .contact p {
@@ -123,8 +130,10 @@ h3 {
 }
 
 .main {
+	display: flex;
+	flex-direction: row-reverse;
 	padding: 40px 10%;
-	grid-area: main;
+	justify-content: space-between;
 
 }
 
@@ -140,8 +149,6 @@ h3 {
 }
 
 .experience {
-	display: inline-block;
-	float: right: ;
 	max-width: 60%;
 	font-weight: 400;
 }
@@ -160,6 +167,7 @@ h3 {
 	grid-column: span 3;
 	font-size: 1.2rem;
 	font-weight: 600;
+	color: #1a8af2;
 }
 
 .position{
@@ -176,11 +184,12 @@ h3 {
 }
 
 
+
+
 footer {
-	grid-area: footer;
 	text-align: center;
 	font-size: 0.7rem;
-	margin: 30px;
+	margin: auto auto 30px auto;
 	color: #ed970e;
 
 }
