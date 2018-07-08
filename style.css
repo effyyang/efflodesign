@@ -208,6 +208,7 @@ footer {
 		width: auto;
 		display: flex;
 		flex-direction: column;
+		font-size: 1.2rem;
 
 	}
 
@@ -226,7 +227,12 @@ footer {
 	.right > div{
 	text-align: center;
 }
-    .seemywork {
+    .seemywork {}
+
+    .tile {
+    	font-size: 1.5rem;
+    }
+    	
 
 
 }
