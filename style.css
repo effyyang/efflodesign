@@ -53,6 +53,39 @@
 	}
 }
 
+@media screen and (max-width:768px){
+	.container {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+
+	}
+
+	.main{
+		display: block;
+	}
+
+	.job {
+		display: block;
+	}
+
+	.experience {
+		max-width: 100%;
+	}
+
+	.right > div{
+	text-align: center;
+}
+    .seemywork {
+
+
+}
+
+
+@media screen and (max-width:480px){
+
+}
+
 body {
 	width: 100wh;
 	height: 100vh;
@@ -201,63 +234,3 @@ footer {
 
 
 
-
-@media screen and (max-width:768px){
-	.container {
-		height: auto;
-		display: flex;
-		flex-direction: column;
-
-	}
-
-	.main{
-		display: block;
-	}
-
-	.job {
-		display: block;
-	}
-
-	.experience {
-		max-width: 100%;
-	}
-
-	.right > div{
-	text-align: center;
-}
-    .seemywork {
-
-
-}
-
-
-@media screen and (max-width:480px){
-	.container {
-		height: auto;
-		display: flex;
-		flex-direction: column;
-
-	}
-
-	.main{
-		display: block;
-	}
-
-	.job {
-		display: block;
-	}
-
-	.experience {
-		max-width: 100%;
-	}
-
-	.right > div{
-	text-align: center;
-}
-    .seemywork {
-  
-
-}
-
-
-}
