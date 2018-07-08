@@ -6,9 +6,9 @@
   text-decoration: none;
 }
 
-@charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
+
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700');
 
@@ -60,7 +60,9 @@ body {
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
 	font-size: 14px;
-	font-family: Poppins;
+	font-family: Poppins, Arial;
+	font-weight: normal;
+    font-style: normal;
 }
 
 
