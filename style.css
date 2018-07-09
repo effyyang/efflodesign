@@ -291,6 +291,17 @@ footer {
 	margin-bottom: 30px;
     }
 
+    .position {
+    	display: inline-block;
+    	margin-right: 10px;
+    }
+
+
+    .year {
+    	display: inline-block;
+    	color: #a3a3a3;
+    }
+
 
     .seemywork {
     	display: none;
@@ -317,9 +328,7 @@ footer {
     	font-weight: 400;
     	letter-spacing: 0.2rem;
     }
-    .year {
-    	color: #a3a3a3;
-    }
+
     
     .software {
     	max-width: 100%;
