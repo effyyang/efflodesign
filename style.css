@@ -77,7 +77,8 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
-	align-content: start;
+	align-content: space-between;
+
 
 }
 
@@ -115,9 +116,16 @@ h4 {
 	justify-content: space-between;
 }
 
+.arrow {
+	height: 70%;
+	border-right: solid 2px #a3a3a3;
+}
+
 .right > div{
 	text-align: right;
 }
+
+
 
 
 a{
@@ -284,6 +292,7 @@ footer {
     	display: block;
     	text-align: center;
     	color: #686868 ;
+    	margin: 20px auto;
     }
 
     h3 {
