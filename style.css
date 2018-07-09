@@ -93,6 +93,10 @@ header {
     
 }
 
+header a {
+	font-size: 0.8rem;
+}
+
 h3 {
 	font-family: 'Roboto';
 	font-size: 2rem;
