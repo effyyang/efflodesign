@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
 
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+
 
 
 
@@ -63,9 +65,10 @@ body {
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
 	font-size: 14px;
-	font-family: Poppins, Helvetica;
+	font-family: Poppins, 'Noto Sans TC', Helvetica;
 	font-weight: normal;
     font-style: normal;
+
 }
 
 
@@ -87,7 +90,7 @@ header {
 	font-size: 0.8rem;
 	padding: 20px;
 	border-bottom: solid 1px #d8d8d8
-
+    
 }
 
 h3 {
@@ -154,7 +157,7 @@ h3 {
 }
 
 .experience {
-	max-width: 60%;
+	max-width: 70%;
 	font-weight: 400;
 }
 
@@ -163,16 +166,16 @@ h3 {
 	grid-template-columns: repeat(6, 1fr);
 	grid-auto-rows: minmax(30px, auto);
 	margin-top: 10px;
-	line-height: 1.5rem;
+	line-height: 2rem;
 
 }
 
 
 .title{
 	grid-column: span 3;
-	font-size: 1.2rem;
 	font-weight: 600;
 	color: #1a8af2;
+	font-size: 1.2rem;
 }
 
 .position{
@@ -227,12 +230,11 @@ footer {
 	.right > div{
 	text-align: center;
 }
-    .seemywork {}
+    .seemywork {
 
-    .tile {
-    	font-size: 1.5rem;
     }
-    	
+
+
 
 
 }
