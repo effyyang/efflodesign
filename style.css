@@ -75,7 +75,6 @@ body {
 
 
 .container {
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-content: start;
@@ -101,6 +100,13 @@ h3 {
 	color: #5370bc;
 	letter-spacing: 0.3rem;
 	text-align: right;
+}
+
+h4 {
+	font-size: 1.2rem;
+	font-weight: 300;
+	letter-spacing: 0.1rem;
+	margin: 10px auto;
 }
 
 .right{
@@ -136,7 +142,7 @@ a{
 }
 
 .logo img{
-	max-width: 60px;
+	max-height: 60px;
 
 }
 
@@ -200,6 +206,26 @@ a{
 	}
 
 
+.skill {
+	display: block;
+	margin: 40px auto;
+
+}
+
+
+.skill img {
+	max-height: 50px;
+	padding-right: 10px;
+	margin: 10px 0;
+}
+
+
+.software {
+	max-width: 600px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
 
 footer {
 	text-align: center;
@@ -209,10 +235,15 @@ footer {
 
 }
 
+@media screen and (max-width:1440px){
+
+	.container {
+		height: auto;
+	}
+}
 
 
-
-@media screen and (max-width:768px){
+@media screen and (max-width:1000px){
 	.container {
 		height: auto;
 		width: 100wh;
@@ -234,17 +265,18 @@ footer {
 	.job {
 		display: block;
 		margin-bottom: 15px;
-		margin-top: 20px;
+		
 	}
 
 	.experience {
 		max-width: 100%;
+		margin: 10% auto;
 	}
 
 	.right > div{
 	text-align: center;
 	margin-bottom: 30px;
-}
+    }
     .seemywork {
     	display: none;
 
@@ -264,13 +296,23 @@ footer {
     .year {
     	color: #a3a3a3;
     }
+    
+    .software {
+    	max-width: 100%;
 
+    }
 
+}
 
+@media screen and (max-width:525px){
+
+	.software {
+		justify-content: start;
+
+	}
 
 }
 
 
-@media screen and (max-width:480px){
 
-}
+
