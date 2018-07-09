@@ -93,7 +93,7 @@ header {
     
 }
 
-header a {
+header > a {
 	font-size: 0.8rem;
 }
 
