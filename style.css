@@ -126,7 +126,6 @@ h4 {
 
 
 
-
 a{
 	font-size: 0.8rem;
 	color: #686868;
@@ -284,6 +283,8 @@ footer {
 	.job ul {
 		font-size: 1.1rem;
 	}
+
+	
 
 	.experience {
 		max-width: 100%;
