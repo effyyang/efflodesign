@@ -309,7 +309,7 @@ footer {
 
 	.job {
 		display: block;
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 		
 	}
 
@@ -358,6 +358,7 @@ footer {
     .linkbelow a {
     	color: #fff;
     	letter-spacing: 0.1rem;
+    	padding: 20px;
     }
 
     h3 {
